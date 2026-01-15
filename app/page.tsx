@@ -52,7 +52,7 @@ export default function IQCGeneratorPage() {
       });
 
       // API Key is safe on server side, but here we use a public API endpoint
-      const apiUrl = `https://api.nexray.web.id/maker/v1/iqc?${params.toString()}`;
+      const apiUrl = `https://api-faa.my.id/faa/iqcv2?${params.toString()}`;
       
       // Update UI
       setTimeout(() => {
